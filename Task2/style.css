@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* #5b7065, black */
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(113,113,214,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: "Times New Roman", Times, serif;
+  min-height: 100vh;
+}
+
+button {
+  height: fit-content;
+  cursor: pointer;
+  color: #04202c;
+  background-color: #c9d1c8;
+}
+
+.app {
+  width: 1000px;
+  margin-left: 150px;
+  align-items: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.input-header {
+  display: inline;
+  justify-content: space-between;
+  align-content: center;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.to-do-input input {
+  width: 150px;
+  font-family: inherit;
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  outline: none;
+}
+.to-do-input select {
+  width: 150px;
+  font-family: inherit;
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left:10px;
+  padding: 10px;
+  outline: none;
+}
+.to-do-input button {
+  width: 50px;
+  color: #5b7065;
+  font-family: inherit;
+  border: none;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left : 10px;
+}
+
+ul li{
+  list-style: none;
+  background-color: rgb(201, 209, 200,0.3);
+  font-size: 20px;
+  font-weight: 100;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+  border-style: solid;
+  border-color: #2e2e2f;
+  border-radius: 10px;
+  border-width: thin;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+ul li::before{
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(./unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+ul li span{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+ul li span:hover{
+  background-color: #edeef0;
+}
+@media(max-width: 768px) {
+  .app {
+    width: 95%;
+    text-align: center;
+  }
+
+  .input-header {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .to-do-input {
+    display: flex;
+  }
+
+  .to-do-input input {
+    width: 300px;
+  }
+
+}
