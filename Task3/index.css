@@ -1,0 +1,471 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 11px;
+}
+
+.nav   img{
+    width: 8%;
+    background-color: black;
+    margin-left: 32px;
+
+}
+
+.nav .left{
+    display: flex;
+     
+}
+.left p{
+    margin-inline: 22px;
+    margin-top: 14px;
+     
+
+}
+.nav .right{
+    display:flex ;
+}
+.right p{
+    margin-inline: 22px;
+    margin-top: 11px;
+}
+.right  i{
+color: white;
+margin-top: 11px;
+font-size: 20px;
+}
+.right button{
+    width: 80px;
+    height: 36px;
+    background-color: #fff;
+    color: black;
+    border-radius: 21px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+ 
+.right button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.main{
+    background-image: url(cr.webp);
+    height: 600px;
+    background-repeat:no-repeat;
+    background-size: 1536px 600px;
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    margin-top:75px;
+    width: 580px;
+    height: 480px;
+    background-color: #fff;
+     /* padding: 111px; */
+     margin-left: -600px;
+   
+      
+}
+ 
+.card .ride {
+    display: flex;
+    justify-content: space-around;
+   border-bottom: 1px solid rgb(197, 196, 196);
+   text-align: center;
+   margin-top: -10px;
+   margin-left: 50px;
+
+}
+.ride .car{
+    margin-inline: 100px;
+    margin-top: 12px; 
+    border-bottom: 4px solid black;
+    width: 50px;
+    height: 100px;
+    margin-left: 60px;
+}
+.card .ride i{
+    font-size: 25px;
+}
+.card h1{
+    font-size:50px;
+    font-weight:1500;
+   padding: 20px;
+    margin-left: 33px;
+
+}
+.card input{
+    margin-top: 7px;
+    margin-left: 55px;
+    width: 330px;
+    height: 30px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+.card .btn{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.card .btn .req{
+    margin-inline: 11px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+     
+
+}
+.btn button{
+    margin-inline: 11px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: rgb(194, 193, 193);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.welmsg img
+{
+    
+   
+    height: 350px;
+     width:100%
+    
+
+}
+.welmsg h3
+{
+    font-size:30px;
+    margin-top: -300px;
+    margin-left:150px;
+    margin-right:400px;
+}
+.welmsg button{
+    margin-inline: 11px;
+    width: 150px;
+    height: 45px;
+    margin-bottom: 200px;
+     margin-top:20px;
+     margin-left:150px;
+     border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+     
+
+}
+.welmsg p{
+    margin-left:150px;
+    margin-top:20px;
+}
+
+.content{
+    margin-left: 60px;
+    color:black;
+    margin-top: 30px;
+}
+
+
+.uber-ride h1{
+    margin-left:100px;
+    font-size: 40px;
+    padding: 32px;
+}
+
+.uber-ride .go{
+    display: inline-flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.uber-ride .go .auto{
+    display: inline-flex;
+    width: 500px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.uber-ride .go .auto img{
+     margin-left:-20px;
+     width: 150px;
+     height: 150px;
+}
+.uber-ride .go .auto h3{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.uber-ride .go .auto .text{
+    align-content: center;
+    width: 315px;
+}
+.head h1{
+    padding: 33px;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.rightarrow 
+{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+}
+.rightarrow i{
+    margin-left: 10px;
+    width: 20px;
+}
+.rightarrow i:hover{
+    margin-left: 40px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.about{
+    margin-top: 150px;
+    display:inline-flex;
+    gap:40px;
+    background-color: #fff  ;
+    height: 320px;
+}
+.person{ 
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 360px;
+    height: 192px;
+
+}
+.news{ 
+    margin-top: 50px;
+    width: 360px;
+    height: 192px;
+
+}
+.home{ 
+    margin-top: 50px;
+    width: 360px;
+    height: 192px;
+
+}
+.down h1{
+    padding: 33px;
+    font-size: 33px;
+}
+
+.down{
+    background-color: rgb(240, 237, 237);
+    margin-top: 22px;
+    
+}
+.down .lode{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 33px;
+}
+.btn2{
+    width:558px;
+    height:150px;
+    display: inline-flex;
+    justify-content: center;
+    background-color:white;
+}
+.btn2 h3{
+    font-size:22px;
+    margin-top: 50px;
+    margin-left:10px;
+
+}
+.btn2 .rightarrow{
+    margin-top: 40px;
+}
+.signup{
+    height:213px;
+    display:inline-flex;
+    gap: 40px;
+    justify-content: center;
+}
+.drive
+{
+    width:450px;
+    padding: 30px;
+    height:85px;
+    border-bottom:2px solid black;
+    display:inline-flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.ride
+{
+    width:450px;
+    height:85px;
+    padding: 30px;
+    border-bottom:2px solid black;
+    display:inline-flex;
+    margin-top: 50px;
+
+}
+.drive .rightarrow{
+    margin-top: -10px;
+    margin-left: 200px;
+}
+.ride .rightarrow{
+    margin-top: -10px;
+    margin-left: 200px;
+}
+.footer {
+    height: 800px;
+    background-color: black;
+    padding: 44px;
+    margin-top: 33px;
+    color: white;
+}
+.ubr{
+    height:112px;
+    width: 800px;
+    display: flex;
+    margin-left: 50px;
+}
+.ubr p{
+    margin-top: 40px;
+}
+.ubr a{
+    color:white;
+    font-size: 22px;
+    text-decoration: none;
+}
+.help{
+    width: 800px;
+    height: 68px;
+    margin-left: 50px;
+    display: flex;
+}
+.help a{
+    color: white;
+    text-decoration: none;
+}
+.help a:hover{
+    border-bottom: 2px solid white;
+}
+.list-container{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-flex;
+    gap: 175px;
+}
+.media{
+    padding: 50px;
+    height: 163px;
+    width: 1152px;
+    display: flex;
+    gap: 20px;
+}
+.social{
+    display: inline-flex;
+    gap: 80px;
+    width: 558px;
+    height: 78px;
+}
+.social button{
+    margin-top:20px;
+    width:20px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background-color: white;
+    border:none;
+    border-radius: 8px;
+}
+
+.loc{
+    display: inline-flex;
+    justify-content: right;
+    width: 558px;
+    height: 78px;
+}
+.loc button{
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.loc a{
+    text-decoration: none;
+}
+.loc button:hover{
+    background-color: rgb(255,255,255,0.3);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.download{
+    margin-top: 80px;
+    width: 558px;
+    height: 78px;
+    display: inline-flex;
+    justify-content: left;
+    align-content: center;
+    margin-left: -1152px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    height:50px;
+    width:50px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(246, 247, 247);
+    color: rgb(9, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover span{
+    background-color: #555;
+    width:150px;
+    border-radius:40px;
+  }
+ #myBtn:hover span {
+    display:none
+  }
+  
+  #myBtn:hover:before {
+    content:"Back to top";
+   
+   
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+    width:150px;
+    border-radius:40px;
+  }
